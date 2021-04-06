@@ -1,0 +1,28 @@
+{
+     "name":"danielwebgit/restfood",
+     "description": "entrevista técnica para a empresa de tecnologia Stefanini, DF",
+     "minimum-stability": "stable",
+     "license": "MIT",
+     "authors": [
+          {
+               "name": "Daniel Rocha da Conceição",
+               "email": "nielferas@gmail.com",
+               "role": "Develope",
+               "homepage": "http://localhost:8081"
+          }
+     ],
+     "config": {
+          "vendor-dir": "vendor"
+     },
+     "autoload": {
+          "psr-4": {
+               "App\\":"app/Core"
+          },
+          "files": [
+               "app/config/config.php"
+          ]
+     },
+     "require": {
+          "coffeecode/datalayer": "^1.1"
+     }
+}
